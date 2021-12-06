@@ -18,6 +18,7 @@ RUN \
     iptables \
     iproute2 \
     openresolv \
+    inetutils-ping \
     sudo \
     ${EXTRA_INSTALL_ARG} \
   && git clone https://git.zx2c4.com/wireguard-tools . \
